@@ -6,9 +6,16 @@ interface Card {
 }
 
 export function AsideCard({ children, className }: Card){
+
+    const defaultAsideCardStyle = "bg-purple-700 rounded-2xl py-7 px-10";
+
     return(
         <div 
-            className={`bg-purple-700 rounded-2xl py-7 px-10${(className != null) ? ' ' + className : '' }`}
+            className={ 
+                (className != null) ? 
+                defaultAsideCardStyle + ' ' + className : 
+                defaultAsideCardStyle 
+            }
         > 
         
             {children} 
