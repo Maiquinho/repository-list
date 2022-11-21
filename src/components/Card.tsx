@@ -7,7 +7,7 @@ interface Card {
 
 export function AsideCard({ children, className }: Card){
 
-    const defaultAsideCardStyle = "bg-purple-700 rounded-2xl py-7 px-10";
+    const defaultAsideCardStyle = "bg-purple-700 rounded-2xl py-7 px-10 shadow-md";
 
     return(
         <div 
