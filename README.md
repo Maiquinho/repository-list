@@ -1,3 +1,3 @@
-# Michael Matheus - Developer Porfolio
+# Michael Matheus - Repository List
 
-Hi, welcome to my porfolio.
+Project developed using: Vite, Reactjs, TypeScript, TailwindCSS, GitHub API.
